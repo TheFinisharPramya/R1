@@ -1,0 +1,13 @@
+package pack1;
+
+public class SampleClass {
+	public static void main(String []args)
+	{
+		String str="1234";
+		String rev="";
+		
+		StringBuffer bf = new StringBuffer(str);
+		System.out.println(bf.reverse());
+	}
+
+}
